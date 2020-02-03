@@ -1,4 +1,4 @@
-//import java.io.*;
+import java.io.*;
 import java.util.ArrayList;
 class DiceBox{
     private ArrayList<Dice> FD;
@@ -22,8 +22,10 @@ class DiceBox{
         return Total;
     }
     public void printDices(){
-        for(Dice d : FD){
-            System.out.println(d);
+    
+        for(int i=0; i<FD.size(); i++){
+            System.out.println("Dice:"+(i+1)+" "+FD.get(i).getFace());
+        
         }
     }
 }

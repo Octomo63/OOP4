@@ -1,3 +1,4 @@
+  
 class Dice{
 
     private int face;
@@ -16,7 +17,7 @@ class Dice{
     public int getFace(){
         return this.face;
     }
-    public String toString(int face){
+    public String toString(){
         String R = "Face = " + face;
         return R;
     }
